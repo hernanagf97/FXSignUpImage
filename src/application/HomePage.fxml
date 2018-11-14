@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.6538461538461539" layoutX="151.0" layoutY="103.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="503.0" fitWidth="739.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-105.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-351.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../../Proyectos/Descargas/Imagenes/foto3.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Pane cacheShape="false" centerShape="false" prefHeight="398.0" prefWidth="388.0" scaleShape="false" style="-fx-background-color: #7d01aeaa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="23.0" layoutY="135.0" text="Create your own account" textFill="WHITE">
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                        </Label>
+                        <JFXButton layoutX="85.0" layoutY="195.0" prefHeight="34.0" prefWidth="99.0" ripplerFill="#7d01ae" style="-fx-background-radius: 5; -fx-background-color: white;" text="ABOUT US" textFill="#7d01ae" />
+                        <JFXButton layoutX="211.0" layoutY="195.0" prefHeight="34.0" prefWidth="99.0" ripplerFill="#0000000d" style="-fx-border-radius: 5; -fx-border-color: white;" text="SIGN IN" textFill="WHITE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+               <children>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="398.0" prefWidth="204.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="FIRST NAME" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="LAST NAME" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="USERNAME" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="E-MAIL" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="PASSWORD" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="PASSWORD" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField focusColor="#7d01ae" labelFloat="true" opacity="0.63" promptText="PHONE NUMBER" unFocusColor="#bbbbbb" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXToggleButton text="Under 18?" VBox.vgrow="ALWAYS" />
+                        <JFXButton ripplerFill="#0a0909" style="-fx-border-color: #7d01ae; -fx-border-radius: 5;" text="Get Started" textFill="#7d01ae" VBox.vgrow="ALWAYS" />
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </VBox>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
